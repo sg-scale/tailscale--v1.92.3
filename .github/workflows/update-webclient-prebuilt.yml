@@ -23,7 +23,7 @@ jobs:
           ./tool/go mod tidy
 
       - name: Get access token
-        uses: actions/create-github-app-token@df432ceedc7162793a195dd1713ff69aefc7379e # v2.0.6
+        uses: actions/create-github-app-token@64ab729a6294000f5aa4a4bc0b73d1f32bc45510 # v3.3.0
         id: generate-token
         with:
           # Get token for app: https://github.com/apps/tailscale-code-updater
